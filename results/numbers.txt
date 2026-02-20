@@ -1,19 +1,14 @@
 === Number Provenance Ledger ===
 Script: simulation_kernel_vs_nn.py
-Date: 2026-02-19 18:01:43.852944
+Date: 2026-02-19 21:58:36.689430
+Config: N_LAGS=20, N_TRAIN=1000, N_TEST=100, N_REPS=3
+Quantile levels: [np.float64(0.1), np.float64(0.25), np.float64(0.5), np.float64(0.75), np.float64(0.9)]
 
 Table 1:
-  Kernel avg quantile loss: 0.3691 (SE: 0.0063)
-  NN avg quantile loss:     0.3438 (SE: 0.0020)
-  Kernel coverage MAE:      0.0136 (SE: 0.0002)
-  NN coverage MAE:          0.0069 (SE: 0.0012)
-  Relative improvement:     6.9%
+  Kernel avg quantile loss: 0.4104 (SE: 0.0109)
+  NN avg quantile loss:     0.3092 (SE: 0.0060)
+  Kernel coverage MAE:      0.0602 (SE: 0.0018)
+  NN coverage MAE:          0.0103 (SE: 0.0021)
+  Relative improvement:     24.7%
 
-Convergence rates:
-  Empirical NN rate:       m^(-0.001)
-  Theoretical (b=2,k=3):   m^(-0.500)
-  m=500: loss=0.3374
-  m=1000: loss=0.3371
-  m=2000: loss=0.3368
-  m=5000: loss=0.3367
-  m=10000: loss=0.3366
+Theoretical rates: NN m^(-0.50), Kernel m^(-0.17)
