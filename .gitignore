@@ -1,0 +1,31 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.synctex(busy)
+build/
+
+# macOS
+.DS_Store
+
+# Claude Code
+.claude/
+
+# Paper and cover letter (not public)
+bayes-maria.tex
+bayes-maria.pdf
+cover-letter.tex
+cover-letter.pdf
+GenPrediction.bib
+biometrika.bst
+biometrika.cls
+Biomet-lineno.sty
+
+# Editor notes
+nnotes/
+log/

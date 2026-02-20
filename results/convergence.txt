@@ -1,0 +1,14 @@
+=== Convergence Rate Ledger ===
+Date: 2026-02-19 18:16:47.440055
+Oracle loss: 0.325209
+
+m=50: excess=0.013845
+m=100: excess=0.013181
+m=200: excess=0.012635
+m=500: excess=0.011973
+m=1000: excess=0.011753
+m=2000: excess=0.011572
+m=5000: excess=0.011348
+
+Empirical rate: m^(-0.043)
+Theoretical rate: m^(-0.500)
